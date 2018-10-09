@@ -30,7 +30,7 @@ $("#addItem").on("click", function() {
 // Search for recipes
 $("#recipeSearch").on("click", function() {
 
-    $(".ingredients").val(recipeSearch(searchParam));
+    $("#recipeDiv").text(searchResults);
     // youTubeRecipe();
 
 
